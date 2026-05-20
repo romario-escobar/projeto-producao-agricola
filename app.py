@@ -111,7 +111,7 @@ df_original = carregar_dados()
 # =============================================================================
 # NAVEGAÇÃO — MENU DE PÁGINAS (Dashboard Multipágina)
 # =============================================================================
-st.sidebar.markdown("## 🚜 🇧🇷")
+st.sidebar.markdown("## 🚜 🌾 🇧🇷")
 st.sidebar.title("🌾 Agro Dashboard")
 st.sidebar.markdown("---")
 
@@ -230,7 +230,7 @@ estado_top          = df.groupby("uf")["producao_toneladas"].sum().idxmax()
 # ─────────────────────────────────────────────────────────────────────────────
 if pagina == "🏠 Visão Geral":
 
-    st.title("🌾 Análise de Produção Agrícola no Brasil")
+    st.title("🌾🚜 Análise de Produção Agrícola no Brasil 🚜🌾")
     st.markdown(
         "**Período:** 2015–2024 | **Fonte:** Dataset Simulado — Projeto G2 | "
         "**Disciplina:** Linguagem de Programação — Análise e Visualização de Dados com Python"
