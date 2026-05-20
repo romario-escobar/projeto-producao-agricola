@@ -111,7 +111,7 @@ df_original = carregar_dados()
 # =============================================================================
 # NAVEGAÇÃO — MENU DE PÁGINAS (Dashboard Multipágina)
 # =============================================================================
-st.sidebar.markdown("## 🇧🇷")
+st.sidebar.markdown("## 🚜 🇧🇷")
 st.sidebar.title("🌾 Agro Dashboard")
 st.sidebar.markdown("---")
 
