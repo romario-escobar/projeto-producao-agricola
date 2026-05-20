@@ -111,10 +111,7 @@ df_original = carregar_dados()
 # =============================================================================
 # NAVEGAÇÃO — MENU DE PÁGINAS (Dashboard Multipágina)
 # =============================================================================
-st.sidebar.image(
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/320px-Flag_of_Brazil.svg.png",
-    width=120
-)
+st.sidebar.markdown("## 🇧🇷")
 st.sidebar.title("🌾 Agro Dashboard")
 st.sidebar.markdown("---")
 
