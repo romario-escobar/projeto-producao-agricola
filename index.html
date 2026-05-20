@@ -25,17 +25,15 @@
       overflow: hidden;
     }
     header::before {
-      pointer-events: none;
-      z-index: 0;
       content: '';
       position: absolute;
       inset: 0;
       background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
       pointer-events: none;
-      z-index: 0;
+
     }
-    header .emoji { font-size: 64px; display: block; margin-bottom: 16px; position: relative; z-index: 1; }
-    header h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 700; margin-bottom: 12px; position: relative; z-index: 1; }
+    header .emoji { font-size: 64px; display: block; margin-bottom: 16px; }
+    header h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 700; margin-bottom: 12px; }
     header p  { font-size: 1.1rem; opacity: .85; max-width: 600px; margin: 0 auto 28px; }
 
     .badge-row { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
@@ -49,17 +47,15 @@
     }
 
     /* ── Botões de link ──────────────────────────────────── */
-    .btn-row { position: relative; z-index: 2; /*
+    .btn-row {
       display: flex; flex-wrap: wrap; gap: 14px;
       justify-content: center; margin-top: 36px;
-      position: relative; z-index: 2;
     }
     .btn {
       display: inline-flex; align-items: center; gap: 8px;
       padding: 13px 28px; border-radius: 8px;
       font-size: 1rem; font-weight: 600;
       text-decoration: none; transition: transform .15s, box-shadow .15s;
-      position: relative; z-index: 2;
     }
     .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,.25); }
     .btn-primary   { background: #fff; color: #1b4332; }
@@ -175,7 +171,7 @@
     <a class="btn btn-primary"    href="https://github.com/romario-escobar/projeto-producao-agricola" target="_blank">
       🐙 Ver no GitHub
     </a>
-    <a class="btn btn-secondary"  href="https://romarioescobar.streamlit.app" target="_blank">
+    <a class="btn btn-secondary"  href="https://projetog2-pr0ducao-agricola-brasil-romarioescobar.streamlit.app/" target="_blank">
       🚀 Abrir Dashboard
     </a>
   </div>
