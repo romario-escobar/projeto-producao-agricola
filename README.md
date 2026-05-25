@@ -89,7 +89,7 @@ projeto-producao-agricola/
 
 **1. Clone o repositório:**
 ```bash
-git clone https://github.com/SEU_USUARIO/projeto-producao-agricola.git
+git clone https://github.com/romario-escobar/projeto-producao-agricola.git
 cd projeto-producao-agricola
 ```
 
